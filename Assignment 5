@@ -1,0 +1,32 @@
+Assignment 5
+1.Define a class student with the following specification
+Private members of class student
+admno integer
+sname 20 character
+eng, math, science float
+total float
+ctotal() ---> a function to calculate eng + math + science with float return type. 
+Public member function of class student
+Takedata() --->Function to accept values for admno, sname, eng, science and invoke ctotal() to calculate total. 
+Showdata() --->Function to display all the data members on the screen. 
+
+2.Define a class batsman with the following specifications:
+Private members:
+bcode 4 digits code number
+bname 20 characters
+innings, notout, runs integer type
+batavg it is calculated according to the formula
+batavg =runs/(innings-notout)
+calcavg() ---> Function to compute batavg
+Public members:
+readdata() ---> Function to accept value from bcode, name, innings, notout and invoke the function calcavg()
+displaydata()---->Function to display the data members on the screen.
+
+
+3.Write a C++ program to implement a class called Circle that has private member variables for radius. Include member functions to calculate the circle's area and circumference
+
+4.Write a C++ program to create a class called Rectangle that has private member variables for length and width. Implement member functions to calculate the rectangle's area and perimeter. 
+
+5.Write a C++ program to create a class called Person that has private member variables for name, age and country. Implement member functions to set and get the values of these variables
+
+6.Write a C++ program to create a class called Car that has private member variables for company, model, and year.
